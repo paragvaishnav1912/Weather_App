@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(195, 220, 224);
+    font-size: 20px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    padding: 32px 23px;
+    margin: 80px auto;
+    align-items: center;
+    font-size:inherit;
+    box-shadow: 0px 7px 11px 0px rgb(137 137 137);
+    border-radius: 8px;
+    height: 450px;
+}
+
+.boxes {
+    height: 200px;
+    width: 347px;
+    border: 1px solid black;
+    margin: 12px;
+}
+
+input[type="text"] {
+    padding: 6px 12px;
+    width: 409px;
+    font-family: inherit;
+    font-size:18px;
+}
+
+#btn {
+    padding: 7px 9px;
+    border-radius: 18px;
+    margin: 0px 9px;
+    border-radius: 60px;
+    font-size:15px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid rgb(31,27,235);
+    color: black;
+}
+
+#btn:hover {
+    color: #ffffff;
+    background: rgb(31, 27, 235);
+}
+
+.box {
+    margin: 40px 25px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* scroll thumb and track */
+}
+
+.boxes {
+    height: 240px;
+    width: 361px;
+    padding: 38px 17px;
+    margin: 12px;
+    color: black;
+    padding-top:17px;
+    border: none;
+    transition: 0.5s;
+    border-radius: 11px;
+    border: 2px solid blanchedalmond;
+    box-shadow: 0px 0 12px 1px rgb(0 0 0 / 15%);
+}
+.boxes:hover{
+    box-shadow: 1px 0 21px 1px rgb(0 0 0 / 20%);
+}
+
+.boxes #del:hover{
+    color:black;
+}
+.boxes #ti {
+    font-size: 3.2rem;
+}
+.del {
+    color: #454242;
+    float: right;
+    top: 12px;
+    /* margin: 12px; */
+    cursor: pointer;
+    /* font-size: 1.5rem; */
+}
+.del:hover{
+    color:black;
+}
+.symb {
+    float: right;
+    font-size: 6.0rem;
+}
+
+#st {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 23px;
+    color: rgb(87, 84, 84);
+}
+#alerts {
+    position: absolute;
+    top: 233px;
+    left: 486px;
+    color:red;
+    font-size: 16px;
+}
+#viewer {
+    font-size: 25px;
+    display: block;
+    margin: 67px auto;
+    color: #595757;
+}
+#title{
+    margin-top:35px;
+    color:rgb(46, 45, 45);
+}
